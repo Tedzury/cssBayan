@@ -66,8 +66,9 @@ hr {
 }
 
 .input_icon {
-  background-image: url("./icons/plus.png");
+  background-image: url("./icons/close.png");
   background-size: contain;
+  transform: rotate(45deg);
   width: 0;
   height: 0;
   opacity: 0;
@@ -169,6 +170,7 @@ hr {
 
 .input_label:hover .input_icon {
   background-image: url("./icons/close.png");
+  transform: rotate(0deg);
 }
 
 .input_label:active {
@@ -177,6 +179,7 @@ hr {
 
 .input_label:active .input_icon {
   background-image: url("./icons/close_active.png");
+  transform: rotate(0deg);
 }
 
 @media (min-width: 820px) {
